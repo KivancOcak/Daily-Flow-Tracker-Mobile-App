@@ -39,3 +39,48 @@ a
 3 - İOS Simulator 
 
 Only if you had macOS
+
+
+Clone the repository:
+git clone <your-repo-url>
+cd <repo-folder>
+Install dependencies:
+npm install
+Start the app (Expo Go recommended):
+npx expo start
+Run on device / emulator:
+Scan the QR code in Expo Go (Android/iOS)
+Or press a for Android emulator
+Or press i for iOS simulator (macOS only)
+Features
+Add habits and tasks to track daily progress
+Mark tasks as completed with a tap
+Delete tasks with a long press
+Filter items by category: Habits / To-Dos / All
+View daily statistics including completion rate
+How to Run the Application
+1️⃣ Using Expo Go (Recommended)
+Open terminal in the project folder.
+Install dependencies:
+npm install
+Start Expo server:
+npx expo start
+A QR code will appear.
+Install Expo Go on your phone (Android/iOS).
+Scan the QR code to open the app instantly.
+
+Notes:
+
+Latest Node.js versions recommended.
+Older versions may not support some Expo features.
+2️⃣ Android Emulator
+Install Android Studio and open AVD Manager.
+Create and start a virtual Android device.
+Start Expo server:
+npx expo start
+Press a in the terminal to open the app in the emulator.
+3️⃣ iOS Simulator (macOS only)
+Install Xcode and open Simulator.
+Start Expo server:
+npx expo start
+Press i in the terminal to open the app in the iOS simulator.
