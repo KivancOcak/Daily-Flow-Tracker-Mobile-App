@@ -11,6 +11,7 @@ Open terminal in your project folder
 Install dependencies (if not installed):
 
 npm install
+npm start
 
 Start the app:
 
